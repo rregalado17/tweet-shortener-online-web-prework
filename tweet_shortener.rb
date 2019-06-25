@@ -15,6 +15,7 @@ def dictionary
   }
 end
 
+<<<<<<< HEAD
 def word_substituter(string) 
    tweet = string.split(" ") #turning the tweet into an array
    new_tweet = tweet.collect do |word| #iterating the tweets words and assigning them to "word"
@@ -68,3 +69,9 @@ end
 
 
 
+=======
+def word_substituter(string)
+  tweet = str.split("")
+
+end 
+>>>>>>> 8e5de99dd12c312aab5b2ed17ae6ca45db35130b
